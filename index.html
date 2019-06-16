@@ -5,128 +5,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Product</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Product Landing Page</title>
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        #icon-font {
+            font-size: 40px;
+        }
+        .logo {
+            width: 200px;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="container-fluid bg-light pb-4">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a href="#" class="navbar-brand"><img src="images/original_trombones.png" alt="" class="logo img-responsive"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#myNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <header id="header">
-        <div class="logo">
-            <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="">
-        </div>
-        <nav id="nav-bar">
-            <ul>
-                <li><a href="#" id="nav-link">Pricing</a></li>
-                <li><a href="#" id="nav-link">How it Works</a></li>
-                <li><a href="#" id="nav-link">Pricing</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">How It Works?</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About US</a></li>
+                </ul>
+            </div>
         </nav>
-    </header>
+        <!-- Form -->
+        <div class="container mt-2">
+            <div class="form-group text-center mt-4">
+                <h3>Contact US</h3>
+                <div class="col-sm-5 mx-auto pt-2">
+                    <input type="email" name="Email" id="" class="form-control" placeholder="Enter Your Email" required>
+                    <button class="btn btn-dark mt-2">Submit</button>
+                </div>
+            </div>
+        </div>
+        <!-- Product -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-2 mt-3 text-center text-md-right"><i class="fab fa-firefox" id="icon-font"></i></div>
+                <div class="col-md-10">
+                    <h2>Fast Service</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="col-md-2 mt-3 text-center text-md-right"><i class="fab fa-paypal" id="icon-font"></i></div>
+                <div class="col-md-10">
+                    <h2>Assured Products</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="col-md-2 mt-3 text-center text-md-right"><i class="fas fa-truck" id="icon-font"></i></div>
+                <div class="col-md-10">
+                    <h2>Easily Order</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="hero">
-        <form action="" id="form">
-            <h2>Contact Us</h2>
-            <input type="email" id="email" placeholder="Enter your email"><br>
-            <input type="submit" id="submit" value="submit">
-        </form>
+        <div class="container mt-4">
+            <div class="row justify-content-around">
+                <div class="card col-sm-3 text-center mt-4">
+                    <div class="card-header bg-info text-white text-uppercase">Groofers</div>
+                    <div class="card-body">
+                        <p>Free</p>
+                        <p>Fast Service</p>
+                        <p>Never overcharged</p>
+                        <p>Always Happy</p>
+                        <p>Never Mind</p>
+                        <button class="btn btn-success mt-2">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card col-sm-3 text-center ml-md-4 mt-4">
+                    <div class="card-header bg-info text-white text-uppercase">Flipkart</div>
+                    <div class="card-body">
+                        <p>Free</p>
+                        <p>Fast Service</p>
+                        <p>Never overcharged</p>
+                        <p>Always Happy</p>
+                        <p>Never Mind</p>
+                        <button class="btn btn-success mt-2">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card col-sm-3 text-center ml-md-4 mt-4">
+                    <div class="card-header bg-info text-white text-uppercase">Amazon</div>
+                    <div class="card-body">
+                        <p>Free</p>
+                        <p>Fast Service</p>
+                        <p>Never overcharged</p>
+                        <p>Always Happy</p>
+                        <p>Never Mind</p>
+                        <button class="btn btn-success mt-2">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="container">
-        <section class="features">
+    <footer class="page-footer bg-dark pt-4">
+        <div class="container-fluid text-white">
             <div class="row">
-                <div class="icon">
-                    <i class="fas fa-fire"></i>
+                <div class="col-md-6">
+                    <h5 class="text-uppercase">Footer Content</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate voluptate explicabo
+                        laborum ab molestias.</p>
                 </div>
-                <div class="desc">
-                    <h2>Premium Materials</h2>
-                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
-                        of your purchase.</p>
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                        <li>Link 4</li>
+                    </ul>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="icon">
-                    <i class="fas fa-truck"></i>
-                </div>
-                <div class="desc">
-                    <h2>Fast Shipping</h2>
-                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide
-                        free returns if you are not satisfied.</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="icon">
-                    <i class="fas fa-battery-three-quarters"></i>
-                </div>
-                <div class="desc">
-                    <h2>Quality Assurance</h2>
-                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and
-                        test the pitch of your instrument.</p>
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                        <li>Link 4</li>
+                    </ul>
                 </div>
             </div>
-        </section>
-
-        <section class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RuKMX5yMwh4" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </section>
-
-        <section class="price-box">
-            <div class="product" id="kaccha">
-                <div class="level">Kory Mshefer</div>
-                <h2>600/-</h2>
-                <ul>
-                    <li>No comments</li>
-                    <li>No comments</li>
-                    <li>No comments</li>
-                    <li>No comments plz no</li>
-                    <li>No comments</li>
-                </ul>
-                <input class="btn" type="button" value="SELECT">
-            </div>
-
-            <div class="product" id="kaccha">
-                <div class="level">Master Chef</div>
-                <h2>600/-</h2>
-                <ul>
-                    <li>No comments</li>
-                    <li>No comments</li>
-                    <li>No comments</li>
-                    <li>No comments plz no</li>
-                    <li>No comments</li>
-                </ul>
-                <input class="btn" type="button" value="SELECT">
-            </div>
-
-            <div class="product" id="kaccha">
-                <div class="level">Maha laxmi</div>
-                <h2>600/-</h2>
-                <ul>
-                    <li>No comments</li>
-                    <li>No comments</li>
-                    <li>No comments</li>
-                    <li>No comments plz no</li>
-                    <li>No comments</li>
-                </ul>
-                <input class="btn" type="button" value="SELECT">
-            </div>
-        </section>
-    </div>
-
-    <footer class="footer">
-        <ul>
-            <li>Product</li>
-            <li>Service</li>
-            <li>Contact Us</li>
-        </ul>
-        <p>Copyright 2019, Suhail Malik</p>
+        </div>
+        <div class="footer-copyright bg-primary text-center text-white py-2">
+            <p>@2018 Copyright: Suhail Malik</p>
+        </div>
     </footer>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
