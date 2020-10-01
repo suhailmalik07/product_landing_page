@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 .logo {
-    width: 60vw;
+    width: 62vw;
 }
 #header-img {
     width: 100%;
@@ -61,7 +61,8 @@ body {
 }
 #submit, .btn {
     background: none;
-    padding: 10px;
+    padding: 10px  15px;
+/* extra padding added to improve btn look  */
     border: 2px solid #008CBA;
     border-radius: 4px;
     transition-duration: 0.4s;
@@ -93,6 +94,7 @@ body {
 }
 .desc > h2 {
     font-size: 30px;
+    padding:10px;
 }
 .video {
     text-align: center;
